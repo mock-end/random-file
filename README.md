@@ -62,8 +62,20 @@ Optionally specify the file type, available types are:
   ['bmp', 'gif', 'gpl', 'ico', 'jpeg', 'psd', 'png', 'psp', 'raw', 'tiff']
   ```
 - vector
+
+  ```js
+  ['3dv', 'amf', 'awg', 'ai', 'cgm', 'cdr', 'cmx', 'dxf', 'e2d', 'egt', 'eps', 'fs', 'odg', 'svg', 'xar']
+  ```
 - 3d
+
+  ```js
+  ['3dmf', '3dm', '3mf', '3ds', 'an8', 'aoi', 'blend', 'cal3d', 'cob', 'ctm', 'iob', 'jas', 'max', 'mb', 'mdx', 'obj', 'x', 'x3d']
+  ```
 - doc
+
+  ```js
+  ['doc', 'docx', 'dot', 'html', 'xml', 'odt', 'odm', 'ott', 'csv', 'rtf', 'tex', 'xhtml', 'xps']
+  ```
 
 ```js
 randomFile({ fileType: '3d' });
