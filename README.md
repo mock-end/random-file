@@ -42,10 +42,10 @@ Optionally specify the file extension:
 randomFile({ extension: 'txt' });
 // => 'tavnamgi.txt'
 
-randomMinute({ extensions: ['txt', 'md', 'doc'] });
+randomFile({ extensions: ['txt', 'md', 'doc'] });
 // => 'ralve.doc'
 
-randomMinute({ 
+randomFile({ 
     extensions: {
         'images': [ 'bmp', 'gif', 'png' ],
         'vector': [ '3dv', 'amf', 'awg', 'ai' ]
