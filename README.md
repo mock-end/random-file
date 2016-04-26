@@ -57,6 +57,9 @@ randomFile({
 Optionally specify the file type, available types are:
 
 - raster
+  ```js
+  ['bmp', 'gif', 'gpl', 'ico', 'jpeg', 'psd', 'png', 'psp', 'raw', 'tiff']
+  ```
 - vector
 - 3d
 - doc
