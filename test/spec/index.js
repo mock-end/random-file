@@ -38,7 +38,6 @@ describe('random-file: ', function () {
 
 
       expect(randomFile.bind(null, { fileType: 1 })).to.be.throw(TypeError);
-
     }
   });
 });
